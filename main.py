@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+anoatual=int(input('Ano Atual: '))
+idadeatual=int(input('Idade Atual: '))
+outroano=int(input('Outro ano: '))
+nome=raw_input('Nome: ')
+idade=int(idadeatual + outroano - anoatual)
+print(nome)
+print('no ano de')
+print(outroano)
+print('você terá')
+print(idade)
+print('anos')
